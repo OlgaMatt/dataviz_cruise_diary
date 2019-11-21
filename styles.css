@@ -1,0 +1,214 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+#compass {
+    position: absolute;
+    top: 5.88%;
+    left: 1.04%;
+    width: 10%;
+    height: 15%;
+}
+
+#noun_Compass {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 7.6%;
+    left: 13.08%;
+}
+
+#navigation {
+    position: absolute;
+    left: 1.04%;
+    width: 35.79%;
+    height: 29.59%;
+    top: 22.36%;
+}
+
+.gwd-div-13ix {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 7.672px;
+    top: 2.508px;
+}
+
+.gwd-div-6wft {
+    border-style: solid;
+    border-width: 1px;
+    left: 47.56%;
+    top: 1.44%;
+    width: 45.73%;
+    height: 48.07%;
+}
+
+.gwd-div-z7x4 {
+    border-style: solid;
+    border-width: 1px;
+    left: 1.83%;
+    top: 49.52%;
+    width: 45.73%;
+    height: 48.07%;
+}
+
+.gwd-div-1xwt {
+    border-style: solid;
+    border-width: 1px;
+    left: 47.56%;
+    top: 49.52%;
+    width: 45.73%;
+    height: 48.07%;
+}
+
+.gwd-div-1bly {
+    border-style: solid;
+    border-width: 1px;
+    left: 1.75%;
+    top: 1.21%;
+    width: 45.73%;
+    height: 48.07%;
+}
+
+.gwd-div-1jz7 {
+    position: absolute;
+    left: 38.3%;
+    top: 5.83%;
+    width: 55.81%;
+    height: 46.12%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#weatherDataframe {
+    position: absolute;
+    left: 1.04%;
+    top: 54.62%;
+    width: 93.23%;
+    height: 9.39%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.weatherData {
+    position: absolute;
+    width: 15.00%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#hum {
+    left: 15%;
+}
+
+#sol {
+    left: 30%;
+}
+
+#uv {
+    left: 45%;
+}
+
+#windArrow {
+    position: absolute;
+    left: 95.04%;
+    top: 3.62%;
+    width: 5.23%;
+    height: 100.39%;
+    /*    border-style: solid;
+     border-width: 1px;*/
+}
+
+.gwd-div-1qv7 {
+    position: absolute;
+    width: 158px;
+    height: 66px;
+    left: 981.297px;
+    top: -1px;
+}
+
+.gwd-div-mf65 {
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    left: 1.04%;
+    top: 64.01%;
+    width: 93.23%;
+    height: 28.45%;
+}
+
+.gwd-div-114s {
+    position: absolute;
+    left: -0.24%;
+    width: 100.32%;
+    height: 50%;
+    top: 0%;
+}
+
+.gwd-div-ue7u {
+    left: 0%;
+    top: 50%;
+}
+
+.gwd-div-x8ok {
+    position: absolute;
+    top: 5.88%;
+    height: 15%;
+    width: 12%;
+    left: 11.12%;
+}
+
+.gwd-div-1453 {
+    position: absolute;
+    top: 5.88%;
+    height: 15%;
+    width: 12%;
+    left: 23.27%;
+}
+
+.countries {
+    stroke: #f7f7f7;
+    fill: #d9d9d9;
+}
+
+.textLabels {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 1.2vw;
+    letter-spacing: 0.08vw;
+    word-spacing: 0.08vw;
+    color: #6D6D6D;
+    font-weight: 300;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+p {
+    margin-top: 0.1%;
+}
+
+
+/*linechart*/
+
+.axis {
+    font-family: sans-serif;
+    fill: none;
+    font-size: 12px;
+}
+
+.smoothline {
+    fill: none;
+    stroke: #132ae7;
+    stroke-width: 3px;
+}
+
+.grid {
+    stroke: #DDD;
+    stroke-width: 1px;
+    fill: none;
+}

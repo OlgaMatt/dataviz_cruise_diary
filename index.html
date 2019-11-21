@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="d3/d3.js"></script>
+    <script type="text/javascript" src="d3/d3-selection-multi.js"></script>
+    <script type="text/javascript" src="d3/topojson.js"></script>
+    <script type="application/javascript" src="script_zuBearbeiten.js"></script>
+    <title>DataVis</title>
+    <meta>
+</head>
+
+<body class="htmlNoPages">
+    <div id="compass">
+        <svg width="100" height="100" id="noun_compass"></svg>
+    </div>
+    <div id="navigation">
+        <div class="gwd-div-13ix gwd-div-1bly textLabels" id="distanceTravelled">distance travelled</div>
+        <div class="gwd-div-13ix gwd-div-1xwt textLabels" id="timeRemaining">time remaining</div>
+        <div class="gwd-div-13ix gwd-div-z7x4 textLabels" id="elevation">elevation</div>
+        <div class="gwd-div-13ix gwd-div-6wft textLabels" id="shipSpeed">Ship speed</div>
+    </div>
+
+    <svg class="gwd-div-1jz7">
+      <g id="map"></g>
+      <g id="points"></g>
+    </svg>
+
+
+    <div id="weatherDataframe">
+        <div class="textLabels weatherData" id="temp">Temperature</div>
+        <div class="textLabels weatherData" id="hum">Humidity</div>
+        <div class="textLabels weatherData" id="sol">Solar Radiation</div>
+        <div class="textLabels weatherData" id="uv">UV Index</div>
+        <div id="windArrow">
+            <svg width="50" height="50" id="windDir"></svg>
+        </div>
+
+
+    </div>
+    <div class="gwd-div-mf65" id="lineGraphs">
+        <svg class="gwd-div-114s gwd-div-ue7u" id="wind"></svg>
+        <svg class="gwd-div-114s gwd-div-ue7u" id="pressure"></svg>
+    </div>
+    <div class="gwd-div-x8ok  textLabels" id="lat">Latitude</div>
+    <div class="gwd-div-1453  textLabels" id="long">Longitude</div>
+</body>
+
+</html>
